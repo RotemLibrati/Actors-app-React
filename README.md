@@ -28,6 +28,7 @@ After I understood it, I checked and I solved this problem.
 
 
 It was really challenging and enriching(I dont work before with Redis).
+
 I followed all the tasks that were on the requirements page.
 
 Operating Instructions:
