@@ -47,18 +47,16 @@ const ActorItem = ({ actor: { id, name, birthday, gender } }) => {
             formData.display &&
                 <React.Fragment>
                     <TableRow sx={{ '& > *': { borderBottom: 'unset' } }} className="row-table">
-                        <TableCell>
+                        <TableCell style={{ display: 'flex', alignItems: 'center'}}>
                             <IconButton
-                                style={{ float: 'right' }}
+                                style={{ float: 'left' }}
                                 aria-label="expand row"
                                 size="small"
                                 onClick={() => setOpen(!open)}
                             >
                                 {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
                             </IconButton>
-                        </TableCell>
-                        <TableCell component="th" scope="row">
-                            {id}
+                            {id + " - " + name}
                         </TableCell>
                     </TableRow>
                     <TableRow>

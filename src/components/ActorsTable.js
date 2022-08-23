@@ -14,7 +14,6 @@ const ActorsTable = ({ actors }) => {
       <Table aria-label="collapsible table">
         <TableHead>
           <TableRow>
-            <TableCell></TableCell>
             <TableCell>ID</TableCell>
           </TableRow>
         </TableHead>
