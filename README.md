@@ -9,8 +9,11 @@ Server side:
   2. config - for global variable.
   3. fs-extra - for create txt file and write.
   4. redis - for store data, in this way it is possible to reduce requests to the api or the database.
-  devDependencies: 
+ 
+ devDependencies: 
   1. nodemon - to avoid from restart to server
+
+
 Cliend Side:
   1. material/mui - using to style the table
   2. axios - for http restuest to backend
