@@ -4,7 +4,9 @@ This file I will write serval things about the development process and add opera
 Development process:
 
 Server side: Nodejs, Cliend Side: React, Cache: Redis.
+
 During the development I used in library:
+
 Server side:
   1. axios - for http request to api's actors.
   2. config - for global variable.
