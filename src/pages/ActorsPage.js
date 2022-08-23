@@ -1,21 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import './ActorPage.css';
 
-//Component
+//Components
 import ActorsTable from '../components/ActorsTable';
 import Spinner from '../components/layout/Spinner';
 
-//API request
+//Http request
 import { getActors } from '../service/service';
 
 const ActorsPage = () => {
     const [actors, setActors] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
-    useEffect(() => {
+    useEffect(() => { //Loading the data about the actors
         getActors()
             .then((res) => {
                 setActors(res);
-                setIsLoading(false);
+                setIsLoading(false); 
             })
             .catch((err) => {
                 console.error(err);
@@ -24,7 +24,7 @@ const ActorsPage = () => {
     return (
         <div className='container'>
             <h1 className='title'>Actors API App By Rotem Librati</h1>
-            {isLoading ? <Spinner /> : (
+            {isLoading ? <Spinner /> : ( 
                 <ActorsTable actors={actors} />
             )}
         </div>

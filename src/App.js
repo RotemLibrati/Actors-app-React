@@ -1,4 +1,6 @@
 import './App.css';
+
+//Components
 import ActorsPage from './pages/ActorsPage';
 
 function App() {
