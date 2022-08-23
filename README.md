@@ -1,7 +1,7 @@
 Actors App
 
 <a href='https://youtu.be/rjpq_A9O1v0'>
-  <img align="center"  alt="Watch the video" width="500px" src="./assets/ActorsApp.jpg" />
+  <img align="center"  alt="Watch the video" width="500px" src="./image/ActorsApp.jpg" />
 </a>
 
 This file I will write serval things about the development process and add operating instructions.
